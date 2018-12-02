@@ -1,0 +1,437 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#wrapper{
+	color: black;
+	width:100%;
+	height: 4900px;
+	background: -webkit-linear-gradient(170deg,rgba(0,0,0,.6),black);
+	margin: 0px;
+	padding: 0px;
+    z-index: 30;
+    background:transparent;
+}
+.new_wrapper{
+	width: 100%;
+	color: black;
+	height: 6100px;
+	background: -webkit-linear-gradient(180deg,rgba(0,0,0,.8),black);
+	margin: 0px;
+	padding: 0px;
+    z-index: 30;
+
+    /*background: rgba(0,0,0,1);*/
+
+
+}
+a:{
+	color: white;
+}
+a:visited{
+	color:white;
+}
+
+#menu{
+	display: block;
+	width: 100%;
+	height: 80px;
+	border 2px solid red;
+	background: rgba(255,255,255,.5);
+	background: rgba(0,0,0,.5);
+	position: fixed;
+
+	color: white;
+	float: left;
+	z-index: 1;
+}
+#left_bar{
+	float: right;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	font-size: 30px;
+	font-family: 'Indie Flower', cursive;
+	font-family: 'Artifika', serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Kite One', sans-serif;
+font-family: 'Amatic SC', cursive;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Lobster Two', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Megrim', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Yellowtail', cursive;
+font-family: 'Cookie', cursive;
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Chewy', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Bellefair', serif;
+/*font-family: 'Audiowide', cursive;
+font-family: 'Bad Script', cursive;
+font-family: 'Playball', cursive;
+font-family: 'Shadows Into Light Two', cursive;
+font-family: 'Tangerine', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Marck Script', cursive;
+font-family: 'Rock Salt', cursive;
+font-family: 'Homemade Apple', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Nothing You Could Do', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Alex Brush', cursive;
+font-family: 'Covered By Your Grace', cursive;
+font-family: 'Allura', cursive;
+font-family: 'Calligraffitti', cursive;
+font-family: 'Freckle Face', cursive;
+font-family: 'Niconne', cursive;
+font-family: 'Yesteryear', cursive;
+font-family: 'Pinyon Script', cursive;
+font-family: 'Reenie Beanie', cursive;
+font-family: 'Cabin Sketch', cursive;
+font-family: 'Petit Formal Script', cursive;
+font-family: 'Parisienne', cursive;
+font-family: 'Rochester', cursive;
+font-family: 'Clicker Script', cursive;
+font-family: 'Leckerli One', cursive;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Italianno', cursive;
+font-family: 'Sue Ellen Francisco', cursive;
+font-family: 'Black Ops One', cursive;
+font-family: 'Fontdiner Swanky', cursive;
+font-family: 'Give You Glory', cursive;
+font-family: 'Bungee Inline', cursive;
+font-family: 'Slackey', cursive;
+font-family: 'Mr De Haviland', cursive;
+font-family: 'Kranky', cursive;
+font-family: 'Herr Von Muellerhoff', cursive;
+font-family: 'Princess Sofia', cursive;
+font-family: 'Montez', cursive;
+font-family: 'Qwigley', cursive;
+font-family: 'Just Me Again Down Here', cursive;
+font-family: 'Rouge Script', cursive;
+font-family: 'Seaweed Script', cursive;
+font-family: 'Mountains of Christmas', cursive;
+font-family: 'Dawning of a New Day', cursive;
+font-family: 'Bilbo Swash Caps', cursive;
+font-family: 'Loved by the King', cursive;
+font-family: 'Euphoria Script', cursive;
+font-family: 'Macondo', cursive;
+font-family: 'Meddon', cursive;
+font-family: 'Stalemate', cursive;
+font-family: 'Engagement', cursive;
+font-family: 'Shojumaru', cursive;
+font-family: 'Rye', cursive;
+font-family: 'League Script', cursive;
+font-family: 'Faster One', cursive;
+font-family: 'Bungee Shade', cursive;
+font-family: 'Barrio', cursive;
+font-family: 'Creepster', cursive;
+font-family: 'New Rocker', cursive;
+font-family: 'Amatica SC', cursive;*/
+}
+#login {
+	float: right;
+	margin-right: 10px;
+    padding-top: 10px;
+}
+#left_bar li{
+    display: inline-block;
+    padding: 20px;
+    padding-bottom: 10px;
+    opacity: .7;
+}
+#left_bar li:hover{
+   
+    opacity: .9;
+    background:-webkit-linear-gradient(170deg,rgba(255,0,0,.2),rgba(255,0,0,.9));
+    -webkit-transform:scale(1.3);
+}
+#login li{
+	display: inline-block;
+	padding: 10px;
+	opacity: .7;
+}
+#login li:hover{
+	
+	-webkit-border-radius: 25px;
+	background:-webkit-linear-gradient(170deg,rgba(211,211,211,.5),rgb(211,211,211));
+	opacity: 1;
+	color: red;
+}
+
+
+.parallax-window  {
+    min-height: 700px;
+    width: 100%;
+    margin: 0px;
+    left: 0px;
+    background: transparent;
+    padding-top: 60px;
+
+}
+.parallax-window:hover  {
+
+    min-height: 700px;
+    background: transparent;
+
+}
+.infohead{
+
+	 text-align: end;
+	 font-family: 'Audiowide', cursive;
+font-family: 'Bad Script', cursive;
+font-family: 'Playball', cursive;
+font-family: 'Shadows Into Light Two', cursive;
+font-family: 'Tangerine', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Marck Script', cursive;
+font-family: 'Rock Salt', cursive;
+font-family: 'Homemade Apple', cursive;
+font-family: 'Caveat', cursive;
+
+font-family: 'Monoton', cursive;
+
+/*font-family: 'Fontdiner Swanky', cursive
+font-family: 'Slackey', cursive;
+font-family: 'Montez', cursive;
+font-family: 'Macondo', cursive;
+font-family: 'Shojumaru', cursive;
+font-family: 'Rye', cursive;
+font-family: 'New Rocker', cursive;*/
+font-family: 'Shojumaru', cursive;
+	color: white;
+	 font-size: 0px;
+	 padding: 90px;
+	 opacity: .25;
+	 -webkit-transition:font-size 3s ease;
+	 -webkit-transition-delay: .7s;
+}
+.parallax-window:hover .infohead{
+	opacity: 1;
+	font-size: 45px;
+
+}
+.infolife{
+
+	 top: 0px;
+	 text-align: end;
+	 color: white; 
+	 padding: 0px;
+	 opacity: 0;
+	 font-size: 30px;
+	 -webkit-transtion:-webkit-transform 10s  ease-in;
+	 -webkit-transition-delay: 1s;
+}
+.parallax-window:hover .infolife{
+	opacity: .9;
+	color: #00394d;
+	-webkit-transform:translate(-100px,-60px);
+
+}
+
+.find{
+	display: block;
+	width: 700px;
+	height: 40px;
+	margin: auto;
+	margin-top: 0px;
+	padding: 0px;
+	color: white;
+}
+.find img{
+	float: left;
+	display: inline-block;
+}
+.find .insert_area{
+      padding: 0px;
+      margin: 0px
+     
+  }
+.find .find_button{
+      padding: 0px;
+      margin: 0px
+      float:right;
+}
+
+
+.parallax-window2  {
+    height: 600px;
+    width: 100%;
+    margin: 0px;
+    left: 0px;
+    background: transparent;
+    opacity: 1;
+
+}
+.parallax-window3{
+    height: 650px;
+    width: 93%;
+    margin-top: -200px;
+    margin-bottom:  0px;
+    left: 0px;
+
+    background: transparent;
+    opacity: 1;
+    padding: 50px;
+    z-index: 99;
+    position: relative;
+
+}
+.reser{
+	height: 30px;
+	display: block;
+	width: 1000px;
+	height: 60px;
+	margin-top: 300px;
+	color: white;
+	z-index: 99;
+	position: absolute;
+	padding-left: 150px;
+}
+.reser ul li{
+	width: 180px;
+	display: inline-block;
+	padding: 10px;
+	font-size: 30px;
+	margin: auto;
+	border:2px solid white;
+	background: rgba(200, 54, 54, 0.5);
+}
+
+#gallery_header{
+	width: 80%;
+	height: 250px;
+	margin-top: 5px;
+	margin:auto;
+	color: white;
+	text-align: center;
+	padding: 50px;
+	font-size: 80px;
+	opacity: .9;
+}
+#grid_header{
+	width: 80%;
+	height: 100px;
+	margin-top: 5px;
+	margin:auto;
+	color: white;
+	text-align: center;
+	padding: 50px;
+	font-size: 40px;
+	opacity: .9;
+}
+.recipies{
+	width: 80%;
+	height: 100px;
+	margin-top: 5px;
+	margin:auto;
+	color: white;
+	text-align: center;
+	padding: 50px;
+	font-size: 40px;
+	opacity: .9;
+}
+.reservations{
+	width: 80%;
+	height: 100px;
+	margin-top: 5px;
+	margin:auto;
+	color: white;
+	text-align: center;
+	padding: 50px;
+	font-size: 40px;
+	opacity: .9;
+}
+
+.popular_res {
+	
+	font-size: 0;
+	width: 70%;
+	height: 650px;
+	left: 20px;
+	
+	margin: auto;
+	
+}
+.popular_res .upper_grid,.middle_grid,.lower_grid{
+	width: 100%;
+	height: 200px;
+	padding: 5px;
+	
+
+}
+.popular_res .upper_grid div{
+	display: inline-block;
+	border: 2px solid rgba(255,0,0,.5);
+
+}
+.popular_res .middle_grid div{
+	display: inline-block;
+	border: 2px solid rgba(255,255,0,.5);
+
+}
+.popular_res .lower_grid div{
+	display: inline-block;
+	border: 2px solid rgba(255,0,0,.5);
+
+}
+
+
+
+.follow {
+	display: block;
+	width: 1000%;
+	height: 70px;
+	position: fixed;
+	color: white;
+	float: right;
+	z-index: 1;
+	right: 20px;
+	bottom: 0px;
+	
+
+
+}
+.follow a img{
+	float: right;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+	margin:auto;
+	opacity: 0.7;
+}
+.follow a img:hover{
+	opacity: 1;
+	-webkit-transform:scale(1.2);
+}
+.footer{
+	display: block;
+	width: 100%;
+	height: 230px;
+	background: black;
+	font-size: 30px;
+	float: left;
+	color: white;
+}
+.footer div {
+	display: inline-block;
+	float: left;
+	padding: 20px;
+
+}
+.footer footer {
+	display: inline-block;
+	float: left;
+	bottom: 0px;
+	margin-left: 50px;
+	margin-top: 30px;
+	font: 20px red Tahoma;
+
+}
